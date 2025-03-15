@@ -1,0 +1,149 @@
+.ssb-top-bar {
+    background: #f3fbff;
+    overflow: hidden;
+    padding: 12px 20px;
+}
+
+.ssb-top-bar img {
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.ssb-top-bar-content {
+    overflow: hidden;
+}
+
+.ssb-top-bar-content h2 {
+    margin: 10px 0;
+}
+
+.ssb_right_sidebar {
+    width: 255px !important;
+    float: right;
+    min-width: inherit;
+    box-sizing: border-box;
+}
+
+.ssb_right_sidebar #poststuff {
+    width: 255px;
+    float: right;
+    min-width: inherit;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 20px;
+}
+
+.ssb_right_sidebar .ssb_social_links_wrapper {
+    padding: 10px;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.ssb_right_sidebar .ssb_social_links li a {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.ssb_right_sidebar .ssb_social_links li a.twitter .dashicons{
+    background: #a7bdd2;
+}
+.ssb_right_sidebar .ssb_social_links li a.wordpress .dashicons{
+    background: #c0e1f2;
+}
+.ssb_right_sidebar .ssb_social_links .dashicons {
+    position: absolute;
+    right: 10px;
+    margin-top: 3px;
+}
+.ssb_right_sidebar .ssb_social_links li .twitter .ssb-x-icon:after, .ssb-x-icon::after{
+    content: "\e920";
+    font-family: 'ssb-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #0F1419;
+}
+.ssb_social_links_wrapper .postbox {
+    min-width: 100%;
+    border: 0;
+}
+
+.ssb_right_sidebar .ssb_social_links li .twitter .dashicons {
+    color: #45b0e3;
+}
+
+.ssb_right_sidebar .ssb_social_links li .facebook .dashicons {
+    color: #3b5998;
+}
+
+.ssb_right_sidebar .ssb_social_links li .wordpress .dashicons {
+    color: #21759b;
+}
+
+.ssb_right_sidebar .plugins_lists li {
+    padding-bottom: 12px;
+    line-height: 1.4;
+}
+.ssb_right_sidebar #poststuff h2{
+    border-bottom: 1px solid #ccc;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.ssb_settings_container {
+    float: left;
+    width: calc(100% - 275px);
+    max-width: 100%;
+}
+
+/* Style for active tab */
+.nav-tab-active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* Hide all tab content by default */
+.ssb_settings_container {
+    display: none;
+}
+
+/* Show the active tab content */
+.ssb_settings_container.group {
+    display: block;
+}
+
+.social-share-sortable-container {
+    display: flex;
+    gap: 20px;
+}
+
+.social-share-active-buttons,
+.social-share-inactive-buttons {
+    width: 48%;
+}
+
+.sortable-list {
+    list-style-type: none;
+    padding: 0;
+    min-height: 100px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+.sortable-item {
+    padding: 10px;
+    margin: 5px 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.sortable-item:hover {
+    background: #f1f1f1;
+}
